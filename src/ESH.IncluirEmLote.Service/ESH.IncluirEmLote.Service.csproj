@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ESH.IncluirEmLote.DataAccess\ESH.IncluirEmLote.DataAccess.csproj" />
+    <ProjectReference Include="..\ESH.IncluirEmLote.Domain\ESH.IncluirEmLote.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
