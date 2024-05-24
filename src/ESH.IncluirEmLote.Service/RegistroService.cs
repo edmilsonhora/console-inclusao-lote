@@ -43,7 +43,7 @@ namespace ESH.IncluirEmLote.Service
                         });
                         threads = 0;
                         streamSessao.Clear();
-                        quantidade += lote;
+                        quantidade += (lote * 10);
                         await Console.Out.WriteLineAsync($"Regitros Incluidos: {quantidade}");
                     }
                     finalArquivo = streamParcial.Item2;
